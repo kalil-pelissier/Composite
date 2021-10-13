@@ -1,13 +1,11 @@
 package main
 
-import "fmt"
-
 type file struct {
 	name string
 }
 
 func (f *file) search(keyword string) {
-	fmt.Printf("Searching for keyword %s in file %s\n", keyword, f.name)
+	//TODO: output a String "Searching for keyword "test" in file "file"
 }
 
 func (f *file) getName() string {
